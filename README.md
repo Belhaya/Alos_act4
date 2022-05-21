@@ -20,7 +20,7 @@ Stopping all the running containers with this command:
 docker-compose down
 ```
 
-If you need to stop and remove all containers, networks, and all images used by any service in <em>docker-compose.yml</em> file, use the command:
+stop and remove all containers, networks, and all images used by any service in <em>docker-compose.yml</em> file, use this command:
 ```bash
 docker-compose down --rmi all
 ```

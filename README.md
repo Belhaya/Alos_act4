@@ -34,7 +34,7 @@ localhost:6868
 ```
 ## Database
 ```bash
-docker exec -it api_mysqldb_1 bin/bash
+docker exec -it mysqldb_1 bin/bash
 ```
 ```bash
 mysql -uroot -p123456

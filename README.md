@@ -1,21 +1,21 @@
 # Alos_act4
 
 
-## Run the System
-We can easily run the whole with only a single command:
+## Run 
+We can  run the whole system  with this command:
 ```bash
 docker-compose up
 ```
 
-Docker will pull the MySQL and Node.js images (if our machine does not have it before).
+Docker will pull the MySQL and Node.js images .
 
 The services can be run on the background with command:
 ```bash
 docker-compose up -d
 ```
 
-## Stop the System
-Stopping all the running containers is also simple with a single command:
+## Stop 
+Stopping all the running containers with this command:
 ```bash
 docker-compose down
 ```
@@ -23,3 +23,12 @@ docker-compose down
 If you need to stop and remove all containers, networks, and all images used by any service in <em>docker-compose.yml</em> file, use the command:
 ```bash
 docker-compose down --rmi all
+```
+## Port of programmes_ui
+```bash
+localhost:8888
+```
+## Port of programmes_api
+```bash
+localhost:6868
+```

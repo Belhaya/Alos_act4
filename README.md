@@ -32,3 +32,16 @@ localhost:8888
 ```bash
 localhost:6868
 ```
+## Database
+```bash
+docker exec -it api_mysqldb_1 bin/bash
+```
+```bash
+mysql -uroot -p123456
+```
+
+```bash
+ use programmes_db;
+```
+
+
